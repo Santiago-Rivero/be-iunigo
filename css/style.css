@@ -1,1 +1,11 @@
-body { margin: 0 auto; background-color: bisque; }
+body { margin: 0 auto; background-color: white; font-family: 'Roboto', sans-serif; }
+
+.mi-navbar { min-width: 85%; min-height: 111px; background-color: white; }
+.mi-navbar a { color: #363749; }
+
+.navbar-brand { font-size: 25px; }
+
+.be-iunigo { background-color: #E6E6E8; }
+.be-iunigo h3 { font-size: 24px; color: #1B26BC; font-style: medium; font-weight: 500; }
+.be-iunigo p { font-size: 16px; font-weight: 400; color: #03051B; }
+.be-iunigo button { background-color: #1B26BC; color: white; padding: 10px 25px; border: none; margin-right: 15px; }

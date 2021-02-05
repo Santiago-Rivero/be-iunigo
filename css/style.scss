@@ -1,4 +1,52 @@
+$primary: #1B26BC;
+$shadow: #101770;
+
+$fuenteHead: #363749;
+$colorShadow: #363749;
+$fuenteBody: #03051B;
+
+$colorBody: #E6E6E8;
+$colorIconos: #E4E5F6;
+$shadowIconos: #CFD0D4;
+$colorBorder: #CFD0D4;
+
+
 body{
     margin: 0 auto;
-    background-color: bisque;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mi-navbar{
+    min-width: 85%;
+    min-height: 111px;
+    background-color: white;
+    a {
+        color: $fuenteHead;
+    }
+}
+.navbar-brand{
+    font-size: 25px;
+}
+
+.be-iunigo{
+    background-color: $colorBody;
+    h3{
+        font-size: 24px;
+        color: $primary;
+        font-style: medium;
+        font-weight: 500;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: $fuenteBody;
+    }
+    button{
+        background-color: $primary;
+        color: white;
+        padding: 10px 25px;
+        border: none;
+        margin-right: 15px;
+    }
 }
