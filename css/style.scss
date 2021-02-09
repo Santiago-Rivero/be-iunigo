@@ -32,13 +32,13 @@ body{
 .be-iunigo{
     background-color: $colorBody;
     h3{
-        font-size: 24px;
+        font-size: 28px;
         color: $primary;
         font-style: medium;
         font-weight: 500;
     }
     p{
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 400;
         color: $fuenteBody;
     }
@@ -49,4 +49,97 @@ body{
         border: none;
         margin-right: 15px;
     }
+}
+.quienes-somos{
+    h3{
+        text-align: center;
+        font-size: 28px;
+        color: $primary;
+        font-style: medium;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        color: $fuenteBody;
+    }
+}
+.mid{
+    background-color: $colorBody;
+}
+.pasos-proceso{
+    text-align: center;
+    margin: 40px auto;
+    h3{
+        text-align: center;
+        font-size: 28px;
+        color: $primary;
+        font-style: medium;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+    img{
+        margin: 0px 0px 30px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        color: $fuenteBody;
+    }
+}
+
+.que-buscamos{
+    margin: 35px auto 60px;
+    h3{
+        text-align: center;
+        font-size: 28px;
+        color: $primary;
+        font-style: medium;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        color: $fuenteBody;
+    }
+    span{
+        font-style: bold;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    h4{
+        text-align: center;
+        font-size: 24px;
+        color: $primary;
+        font-style: medium;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+}
+.beneficios{
+    text-align: center;
+    margin: 40px auto;
+    h3{
+        text-align: center;
+        font-size: 28px;
+        color: $primary;
+        font-style: medium;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        color: $fuenteBody;
+    }
+}
+.col-beneficios{
+    background-color: $colorIconos;
+    border: 1px solid $colorBorder;
+    border-radius: 15px;
+    padding-top: 10px;
+    height: 120px;
+    width: 260px;
 }
