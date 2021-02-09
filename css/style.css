@@ -10,7 +10,7 @@ body { margin: 0 auto; background-color: white; font-family: 'Roboto', sans-seri
 .be-iunigo p { font-size: 20px; font-weight: 400; color: #03051B; }
 .be-iunigo button { background-color: #1B26BC; color: white; padding: 10px 25px; border: none; margin-right: 15px; }
 
-.quienes-somos h3 { text-align: center; font-size: 28px; color: #1B26BC; font-style: medium; font-weight: 500; margin-bottom: 50px; }
+.quienes-somos h3 { text-align: center; font-size: 28px; color: #1B26BC; font-style: medium; font-weight: 500; margin-bottom: 25px; }
 .quienes-somos p { font-size: 20px; font-weight: 400; color: #03051B; }
 
 .mid { background-color: #E6E6E8; }
@@ -18,7 +18,7 @@ body { margin: 0 auto; background-color: white; font-family: 'Roboto', sans-seri
 .pasos-proceso { text-align: center; margin: 40px auto; }
 .pasos-proceso h3 { text-align: center; font-size: 28px; color: #1B26BC; font-style: medium; font-weight: 500; margin-bottom: 35px; }
 .pasos-proceso img { margin: 0px 0px 30px; }
-.pasos-proceso p { font-size: 20px; font-weight: 400; color: #03051B; }
+.pasos-proceso p { font-size: 18px; font-weight: 500; color: #03051B; font-style: bold; }
 
 .que-buscamos { margin: 35px auto 60px; }
 .que-buscamos h3 { text-align: center; font-size: 28px; color: #1B26BC; font-style: medium; font-weight: 500; margin-bottom: 35px; }
@@ -27,7 +27,10 @@ body { margin: 0 auto; background-color: white; font-family: 'Roboto', sans-seri
 .que-buscamos h4 { text-align: center; font-size: 24px; color: #1B26BC; font-style: medium; font-weight: 500; margin-top: 40px; }
 
 .beneficios { text-align: center; margin: 40px auto; }
-.beneficios h3 { text-align: center; font-size: 28px; color: #1B26BC; font-style: medium; font-weight: 500; margin-bottom: 15px; }
+.beneficios h3 { text-align: center; font-size: 28px; color: #1B26BC; font-style: medium; font-weight: 500; margin-bottom: 20px; }
 .beneficios p { font-size: 18px; font-weight: 400; color: #03051B; }
 
-.col-beneficios { background-color: #E4E5F6; border: 1px solid #CFD0D4; border-radius: 15px; padding-top: 10px; height: 120px; width: 260px; }
+.col-beneficios { background-color: #E4E5F6; border: 1px solid #CFD0D4; border-radius: 15px; padding-top: 10px; height: 120px; width: 370px; }
+
+.testimonios { text-align: center; margin: 50px auto 60px; }
+.testimonios h3 { text-align: center; font-size: 28px; color: #1B26BC; font-style: medium; font-weight: 500; margin-bottom: 30px; }
