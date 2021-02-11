@@ -21,40 +21,69 @@
 		<title>Landig Page</title>
 	</head>
 	<body class="d-flex flex-column h-100">
-		<nav class="navbar navbar-expand-md mx-auto mi-navbar">
-			<a class="navbar-brand" href="#">Iunigo</a>
-			<button class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarText"
-				aria-controls="navbarText"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarText">
-				<ul class="navbar-nav mr-auto">
+		<div class="container">
+			<div class="row row-navbar">
+				<nav class="navbar navbar-expand-lg mi-navbar navbar-light">
+					<a class="navbar-brand col-2" href="#">Iunigo</a>
+					<button class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarText"
+						aria-controls="navbarText"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav justify-content-between">
+							<li class="nav-item active">
+								<a class="nav-link" href="#"
+									>Home <span class="sr-only">(current)</span></a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Quiénes somos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Qué es BE-IÚNIGO?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Beneficios</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Testimonios</a>
+							</li>
+						</ul>
+						<span class="navbar-text">
+						</span>
+					</div>
+				</nav>
+			</div>	
+
+			<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">Navbar w/ text</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarText">
+				  <ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#"
-							>Home <span class="sr-only">(current)</span></a
-						>
+					  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contacto</a>
+					  <a class="nav-link" href="#">Features</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About us</a>
+					  <a class="nav-link" href="#">Pricing</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contacto</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">About us</a>
-					</li>
-				</ul>
-			</div>
-        </nav>
+				  </ul>
+				  <span class="navbar-text">
+					Navbar text with an inline element
+				  </span>
+				</div>
+			  </nav> -->
+		</div>
         <section class="be-iunigo"> <!--SECTION BE IUNIGO-->
             <div class="container my-5">
                 <div class="row">
@@ -111,20 +140,20 @@
 			<div class="container pasos-proceso">
 				<h3>PASOS DEL PROCESO</h3>
 				<div class="row">
-					<div class="col-md-3 justify-content-center">
+					<div class="col-md-6 col-lg-3 justify-content-center">
 						<img src="img/iconos/inscripcion.png" alt="img-inscripcion img-fluid">
 						<p>Inscripción</p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-6 col-lg-3">
 						<img src="img/iconos/test-online.png" alt="img-test">
 						<p>Test Online (TERP + Test Técnico Múltiple Choice)
 						</p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-6 col-lg-3">
 						<img src="img/iconos/dinamica-grupal.png" alt="img-dinamica">
 						<p>Dinámica Grupal Online</p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-6 col-lg-3">
 						<img src="img/iconos/hackaton.png" alt="img-hackaton">
 						<p>Hackaton: con 24 a 30 candidatos aprox. 
 						</p>
@@ -137,7 +166,7 @@
 						<img src="img/img-q-buscamos.jpg" alt="img-que-buscamos" class="img-fluid">
 					</div>
 					<div class="col-lg-6 align-self-center">
-						<h3 class="mt-5">QUÉ BUSCAMOS</h3>
+						<h3>QUÉ BUSCAMOS</h3>
 						<p>Buscamos perfiles Back-end y de Front-end con ganas de hacer crecer nuestra plataforma web/mobile basada en microservicios 
 						dentro de un ambiente profesional y relajado.
 						</p>
@@ -150,7 +179,7 @@
 		<section class="beneficios">
 			<div class="container">
 				<h3>BENEFICIOS</h3>
-				<div class="row mb-5 justify-content-xl-between justify-content-sm-center">
+				<div class="row mb-5 justify-content-xl-between justify-content-center">
 					<div class="col-xl-3 col-beneficios mb-5">
 						<h3>01.</h3>
 						<p>FLEXIBILIDAD HORARIA</p>
@@ -164,7 +193,7 @@
 						<p>COBERTURA DE GIMNASIOS</p>
 					</div>
 				</div>
-				<div class="row justify-content-xl-between justify-content-sm-center">
+				<div class="row justify-content-xl-between justify-content-center">
 					<div class="col-xl-3 col-beneficios mb-5">					
 						<h3>04.</h3>
 						<p>MASAJES EN LA OFICINA</p>	
@@ -193,8 +222,13 @@
 				</div>
 			</div>
 		</section>
-		<footer class="footer mt-auto py-3">
-			<h3>Footer de la Page</h3>
+		<footer class="mi-footer mt-auto py-3">
+			<div class="container">
+				<h3>¿QUERÉS SUMARTE A BE-IÚNIGO?</h3>
+				<div class="row justify-content-center mb-3">
+					<button type="button" name="postulate">POSTULATE ACÁ</button>
+				</div>
+			</div>
 		</footer>
 		<!--Scripts Bootstrap-->
 		<script
